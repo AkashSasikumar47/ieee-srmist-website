@@ -7,7 +7,8 @@ import AboutIeee from '../components/AboutIeee/AboutIeee'; // Update the import 
 import PopularEvents from '../components/PopularEvents/PopularEvents'; // Update the import path
 import RecentBlogs from '../components/RecentBlogs/RecentBlogs'; // Update the import path
 import FAQ from '../components/FAQ/FAQ'; // Update the import path
-
+import Testimonial from '../components/Testimonial/Testimonial'; // Update the import path
+import SponsorList from '../components/SponsorList/SponsorList'; // Update the import path
 const HomePage: React.FC = () => {
   return (
     <div>
@@ -18,6 +19,8 @@ const HomePage: React.FC = () => {
       <PopularEvents />
       <RecentBlogs />
       <FAQ />
+      <Testimonial />
+      <SponsorList />
 
       <main className="container mx-auto p-4">
         {/* Add the rest of your content here */}

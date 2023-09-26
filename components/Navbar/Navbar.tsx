@@ -1,43 +1,26 @@
-// components/Navbar.tsx
+// components/Navbar/Navbar.tsx
 import React from 'react';
 import Link from 'next/link';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-black text-white py-4">
-            <div className="container mx-auto flex justify-between items-center">
-                {/* Logo */}
-                <div className="text-white font-bold text-xl">
-                    <Link href="/">
-                        <a>IEEE SRMIST</a>
-                    </Link>
-                </div>
-
-                {/* Navigation Links */}
-                <ul className="flex space-x-4">
-                    <li>
-                        <Link href="/about">
-                            <a className="text-white hover:underline">About Us</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/events">
-                            <a className="text-white hover:underline">Events</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/blog">
-                            <a className="text-white hover:underline">Blog</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/contact">
-                            <a className="text-white hover:underline">Contact</a>
-                        </Link>
-                    </li>
-                </ul>
+        <div className="bg-black text-white py-4 lg:h-20 px-4 lg:px-16 lg:py-7 flex flex-col lg:flex-row lg:justify-between lg:items-center">
+            <div className="text-white font-bold text-2xl lg:text-xl font-montserrat mb-2 lg:mb-0">
+                <Link href="/">HOME</Link>
             </div>
-        </nav>
+            <div className="text-white font-bold text-2xl lg:text-xl font-montserrat mb-2 lg:mb-0">
+                <Link href="/about">ABOUT</Link>
+            </div>
+            <div className="text-white font-bold text-2xl lg:text-xl font-montserrat mb-2 lg:mb-0">
+                <Link href="/events">EVENTS</Link>
+            </div>
+            <div className="text-white font-bold text-2xl lg:text-xl font-montserrat mb-2 lg:mb-0">
+                <Link href="/blog">BLOG</Link>
+            </div>
+            <div className="text-white font-bold text-2xl lg:text-xl font-montserrat">
+                <Link href="/contact">CONTACT</Link>
+            </div>
+        </div>
     );
 };
 
