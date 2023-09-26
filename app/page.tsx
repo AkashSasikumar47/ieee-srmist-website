@@ -1,20 +1,26 @@
-// app/index.tsx
+// app/page.tsx
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Hero from '../components/Hero/Hero'; // Update the import path
+import AboutIeee from '../components/AboutIeee/AboutIeee'; // Update the import path
+import PopularEvents from '../components/PopularEvents/PopularEvents'; // Update the import path
+import RecentBlogs from '../components/RecentBlogs/RecentBlogs'; // Update the import path
+import FAQ from '../components/FAQ/FAQ'; // Update the import path
 
 const HomePage: React.FC = () => {
   return (
     <div>
       <Navbar />
 
+      <Hero />
+      <AboutIeee />
+      <PopularEvents />
+      <RecentBlogs />
+      <FAQ />
+
       <main className="container mx-auto p-4">
-        {/* Add your homepage content here */}
-        <h1 className="text-3xl font-bold mb-4">Welcome to IEEE SRMIST</h1>
-        <p className="text-lg">
-          A dynamic chapter dedicated to advancing technology for the betterment of humanity.
-        </p>
-        {/* Add more content as needed */}
+        {/* Add the rest of your content here */}
       </main>
 
       <Footer />
