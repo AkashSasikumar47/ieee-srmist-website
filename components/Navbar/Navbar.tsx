@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-blue-500 p-4">
+        <nav className="bg-black text-white py-4">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="text-white font-bold text-xl">
