@@ -13,6 +13,9 @@ import RecentBlogs from '../components/Home/RecentBlogs/RecentBlogs';
 import FAQ from '../components/Home/FAQ/FAQ';
 import Testimonial from '../components/Home/Testimonial/Testimonial';
 import SponsorList from '../components/Home/SponsorList/SponsorList';
+
+import '../app/globals.css';
+
 const HomePage: React.FC = () => {
   return (
     <div>
