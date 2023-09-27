@@ -1,30 +1,34 @@
 // app/page.tsx
 import React from 'react';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
-import Hero from '../components/Hero/Hero'; // Update the import path
-import AboutIeee from '../components/AboutIeee/AboutIeee'; // Update the import path
-import PopularEvents from '../components/PopularEvents/PopularEvents'; // Update the import path
-import RecentBlogs from '../components/RecentBlogs/RecentBlogs'; // Update the import path
-import FAQ from '../components/FAQ/FAQ'; // Update the import path
-import Testimonial from '../components/Testimonial/Testimonial'; // Update the import path
-import SponsorList from '../components/SponsorList/SponsorList'; // Update the import path
+import Navbar from '../components/Home/Navbar/Navbar';
+import Footer from '../components/Home/Footer/Footer';
+import Hero from '../components/Home/Hero/Hero';
+import GallerySlide from '../components/Home/GallerySlide/GallerySlide';
+import AboutIeee from '../components/Home/AboutIeee/AboutIeee';
+import PopularEvents from '../components/Home/PopularEvents/PopularEvents';
+import LatestNews from '../components/Home/LatestNews/LatestNews';
+import Announcements from '../components/Home/Announcements/Announcements';
+import FeaturedActivities from '../components/Home/FeaturedActivities/FeaturedActivities';
+import RecentBlogs from '../components/Home/RecentBlogs/RecentBlogs';
+import FAQ from '../components/Home/FAQ/FAQ';
+import Testimonial from '../components/Home/Testimonial/Testimonial';
+import SponsorList from '../components/Home/SponsorList/SponsorList';
 const HomePage: React.FC = () => {
   return (
     <div>
       <Navbar />
 
       <Hero />
+      <GallerySlide />
       <AboutIeee />
       <PopularEvents />
+      <LatestNews />
+      <Announcements />
+      <FeaturedActivities />
       <RecentBlogs />
       <FAQ />
       <Testimonial />
       <SponsorList />
-
-      <main className="container mx-auto p-4">
-        {/* Add the rest of your content here */}
-      </main>
 
       <Footer />
     </div>
