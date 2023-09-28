@@ -44,6 +44,10 @@ const EventsPage: React.FC = () => {
             <EventsInvolve />
 
 
+            <div className="w-full px-4">
+                <div className="text-center text-blue-500 text-l font-bold font-montserrat">ABOUT</div>
+                <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Energizing Innovation: IEEE SRMIST Student Branch</div>
+            </div>
 
             <Footer />
         </div>
