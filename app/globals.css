@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define your color variables for light and dark mode */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,29 +18,38 @@
   }
 }
 
+/* Apply the background gradient and text color */
 body {
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Set a default font size and line height */
 body {
-  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-body {
-  background-color: #000;
+/* Adjust font size for smaller screens (e.g., mobile) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Make sure links are easily distinguishable */
+a {
+  color: #fff;
+  /* White color for links */
+  text-decoration: none;
+  /* Add underline for links */
+}
+
+/* Responsive layout for smaller screens */
+/* Example: Full-width on mobile, half-width on tablet, and one-third width on larger screens */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }
