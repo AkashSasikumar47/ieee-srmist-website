@@ -4,7 +4,7 @@ import Navbar from '../components/Home/Navbar/Navbar';
 import Footer from '../components/Home/Footer/Footer';
 import GalleryImages from '../components/Gallery/GalleryImages/GalleryImages';
 import AboutBanner2 from '../components/About/AboutBanner2/AboutBanner2';
-import FAQ from '../components/Home/FAQ/FAQ';
+
 
 import '../app/globals.css';
 
@@ -24,7 +24,7 @@ const GalleryPage: React.FC = () => {
 
             <GalleryImages />
             <AboutBanner2 />
-            <FAQ />
+
 
             <Footer />
         </div>

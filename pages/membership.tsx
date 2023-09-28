@@ -3,7 +3,7 @@ import Navbar from '../components/Home/Navbar/Navbar';
 import Footer from '../components/Home/Footer/Footer';
 import MembershipPageContent from '../components/Membership/MembershipPage/MembershipPage';
 import AboutBanner2 from '../components/About/AboutBanner2/AboutBanner2';
-import FAQ from '../components/Home/FAQ/FAQ';
+
 
 import '../app/globals.css';
 
@@ -23,7 +23,7 @@ const MembershipPage: React.FC = () => {
 
             <MembershipPageContent />
             <AboutBanner2 />
-            <FAQ />
+
 
             <Footer />
         </div>

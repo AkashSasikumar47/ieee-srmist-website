@@ -6,7 +6,7 @@ import ResourcesXplore from '../components/Resources/ResourcesXplore/ResourcesXp
 import ResourcesPaper from '../components/Resources/ResourcesPaper/ResourcesPaper';
 import ResourcesActivity from '../components/Resources/ResourcesActivity/ResourcesActivity';
 import AboutBanner2 from '../components/About/AboutBanner2/AboutBanner2';
-import FAQ from '../components/Home/FAQ/FAQ';
+
 
 import '../app/globals.css';
 
@@ -28,7 +28,7 @@ const ResourcesPage: React.FC = () => {
             <ResourcesPaper />
             <ResourcesActivity />
             <AboutBanner2 />
-            <FAQ />
+
 
             <Footer />
         </div>

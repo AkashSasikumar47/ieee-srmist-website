@@ -59,6 +59,7 @@ const ContactPage: React.FC = () => {
                     <img className="w-64 max-w-xs mx-auto" src="https://via.placeholder.com/256x236" alt="IEEE SRMIST" />
                     <div className="text-xl font-bold font-montserrat mt-4">IEEE SRMIST STUDENT BRANCH</div>
                 </div>
+
             </section>
         </div>
     );
