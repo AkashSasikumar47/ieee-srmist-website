@@ -25,8 +25,8 @@ const FeaturedActivities: React.FC = () => {
             </div>
 
             {/* Mobile Layout (below 640px) */}
-            <div className="sm:hidden w-full px-4">
-                <div className="text-center text-zinc-300 text-2xl font-semibold font-['Montserrat']">FEATURED ACTIVITIES</div>
+            <div className="w-full px-4">
+                <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Featured Activities</div>
             </div>
 
             <div className="sm:hidden w-full max-w-screen-md mx-auto px-4 py-4">

@@ -10,9 +10,9 @@ const AboutTeam: React.FC = () => {
             </div>
 
             {/* Mobile Layout (below 640px) */}
-            <div className="sm:hidden w-full px-4">
-                <div className="text-center text-zinc-300 text-2xl font-semibold font-['Montserrat']">OUR TEAM</div>
-                <div className="text-center text-white text-[32px] font-bold font-['Montserrat']">The Collective Genius Behind Our Vision</div>
+            <div className="w-full px-4">
+                <div className="text-center text-blue-500 text-l font-bold font-montserrat">OUR TEAM</div>
+                <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">The Collective Genius Behind Our Vision</div>
             </div>
         </section>
     );

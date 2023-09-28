@@ -30,9 +30,9 @@ const SponsorList: React.FC = () => {
 
             {/* Mobile layout (below 640px) */}
             <div className="sm:hidden">
-                <div className="px-4">
-                    <div className="text-2xl font-semibold font-['Montserrat'] text-center">OUR SPONSORS</div>
-                    <div className="text-white text-[24px] font-bold font-['Montserrat'] text-center">Elevate Your Brand with Us: Sponsorship Opportunities</div>
+                <div className="w-full px-4">
+                    <div className="text-center text-blue-500 text-l font-bold font-montserrat">OUR SPONSORS</div>
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Elevate Your Brand with Us: Sponsorship Opportunities</div>
                 </div>
                 <div className="max-w-screen-md mx-auto px-4 py-4 grid grid-cols-2 gap-4">
                     {/* Mobile cards layout here */}

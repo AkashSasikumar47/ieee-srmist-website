@@ -59,8 +59,8 @@ const AboutIeee: React.FC = () => {
             {/* Mobile Layout */}
             <div className="sm:hidden">
                 <div className="w-full px-4">
-                    <div className="text-center text-zinc-300 text-2xl font-semibold font-['Montserrat']">ABOUT</div>
-                    <div className="text-center text-white text-[32px] font-bold font-['Montserrat']">Energizing Innovation: IEEE SRMIST Student Branch</div>
+                    <div className="text-center text-blue-500 text-l font-bold font-montserrat mb-2">ABOUT</div>
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Energizing Innovation: IEEE SRMIST Student Branch</div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-3">
                     {/* "Domains" Section */}

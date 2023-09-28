@@ -19,10 +19,11 @@ const AboutCouncillor: React.FC = () => {
 
             {/* Mobile Layout (below 640px) */}
             <div className="sm:hidden w-full px-4">
-                <div className="text-center text-zinc-300 text-2xl font-semibold font-['Montserrat']">Navigating Opportunities and Guidance: IEEE SRM and Our Branch Councillor</div>
+                <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Navigating Opportunities and Guidance: IEEE SRM and Our Branch Councillor</div>
                 <div className="text-white text-base font-normal font-['Montserrat'] tracking-tight mt-4">IEEE SRM provides students with workshops and webinars spanning diverse fields. Here, you can publish papers, network with IEEE alumni, and collaborate on projects that make a positive impact on society while receiving guidance from our Branch Councillor.</div>
-                <img className="w-full h-[512px] object-cover rounded-lg mt-8" src="https://via.placeholder.com/400x512" alt="Kylie Jenner" />                <div className="text-center text-white text-[38px] font-bold font-['Montserrat'] mt-4">Kylie Jenner</div>
-                <div className="text-center text-white text-base font-bold font-['Montserrat'] mb-8">BRANCH COUNCILLOR</div>
+                <img className="w-full h-[512px] object-cover rounded-lg mt-8" src="https://via.placeholder.com/400x512" alt="Kylie Jenner" />
+                <div className="text-center text-white text-[38px] font-bold font-['Montserrat'] mt-8 mb-4">Kylie Jenner</div>
+                <div className="text-center text-lime-500 text-base font-bold font-['Montserrat'] mb-8">BRANCH COUNCILLOR</div>
                 <div className="text-white text-base font-normal font-['Montserrat'] tracking-tight mt-4">We are delighted to introduce Dr. Sarah Mitchell, our esteemed Branch Councillor at IEEE SRM. Dr. Mitchell brings a wealth of knowledge and experience to our IEEE community.<br /><br />Dr. Sarah Mitchell holds a Ph.D. in Electrical Engineering from MIT and has over 20 years of experience in the field. Her research in renewable energy systems and sustainable technologies has been published in numerous prestigious journals.</div>
             </div>
         </section>

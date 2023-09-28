@@ -27,9 +27,9 @@ const FAQ: React.FC = () => {
 
             {/* Mobile layout (below 640px) */}
             <div className="block sm:hidden">
-                <div className="px-4">
-                    <div className="text-2xl font-semibold font-['Montserrat'] text-center">FAQ</div>
-                    <div className="text-white text-[24px] font-bold font-['Montserrat'] text-center">Frequently Asked Questions</div>
+                <div className="w-full px-4">
+                    <div className="text-center text-blue-500 text-l font-bold font-montserrat">FAQ</div>
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Frequently Asked Questions</div>
                 </div>
                 <div className="max-w-screen-md mx-auto px-4 py-4">
                     <div className="w-full max-w-[400px] p-3 rounded-lg border border-white border-opacity-10 flex-col justify-center items-center gap-4 inline-flex mb-8">

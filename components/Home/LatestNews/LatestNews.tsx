@@ -25,7 +25,7 @@ const LatestNews: React.FC = () => {
             {/* Mobile Layout (below 640px) */}
             <div className="sm:hidden">
                 <div className="w-full px-4">
-                    <div className="text-center text-zinc-300 text-2xl font-semibold font-['Montserrat']">Latest News</div>
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Latest News</div>
                 </div>
                 <div className="w-full max-w-screen-md mx-auto px-4 py-4">
                     {/* News Card 1 */}
