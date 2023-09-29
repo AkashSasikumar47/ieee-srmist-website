@@ -37,8 +37,8 @@ const EventsInvolve: React.FC = () => {
 
             {/* Mobile layout */}
             <section className="bg-black text-white py-8 block sm:hidden">
-                <div className="max-w-screen-xl mx-auto px-4 text-left">
-                    <div className="text-2xl font-semibold font-montserrat">Join and Participate</div>
+                <div className="w-full px-4">
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Join and Participate</div>
                 </div>
                 <div className="max-w-screen-xl mx-auto px-4 py-4 text-left">
                     <div className="w-full max-w-[400px] mx-auto p-3 rounded-lg border border-white border-opacity-10 flex-col justify-center items-start gap-4 inline-flex mb-8">
@@ -54,8 +54,8 @@ const EventsInvolve: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-screen-xl mx-auto px-4 text-left">
-                    <div className="text-2xl font-semibold font-montserrat">Volunteer Opportunities</div>
+                <div className="w-full px-4">
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Volunteer Opportunities</div>
                 </div>
                 <div className="max-w-screen-xl mx-auto px-4 py-4 text-left">
                     <div className="w-full max-w-[400px] mx-auto p-3 rounded-lg border border-white border-opacity-10 flex-col justify-center items-start gap-4 inline-flex mb-8">

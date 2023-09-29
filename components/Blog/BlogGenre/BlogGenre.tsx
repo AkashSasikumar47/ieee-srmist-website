@@ -13,12 +13,11 @@ const BlogGenre: React.FC = () => {
 
             {/* Mobile layout */}
             <section className="bg-black text-white py-8 block sm:hidden">
-                <div className="max-w-screen-xl mx-auto px-4 text-center">
-                    <div className="text-l font-bold font-montserrat">GENRE</div>
-                    <div className="mt-4">
-                        <p className="text-2xl font-semibold font-montserrat">Exploring the IEEE World: Our Blog Collection</p>
-                    </div>
+                <div className="w-full px-4">
+                    <div className="text-center text-blue-500 text-l font-bold font-montserrat">GENRE</div>
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Exploring the IEEE World: Our Blog Collection</div>
                 </div>
+
             </section>
         </div>
     );

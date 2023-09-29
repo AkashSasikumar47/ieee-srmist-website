@@ -26,11 +26,9 @@ const EventsPast: React.FC = () => {
 
             {/* Mobile layout */}
             <section className="bg-black text-white py-8 block sm:hidden">
-                <div className="max-w-screen-xl mx-auto px-4 text-center">
-                    <div className="text-l font-bold font-montserrat">OUR EVENTS</div>
-                    <div className="mt-4">
-                        <p className="text-2xl font-semibold font-montserrat">Our efforts to share our knowledge with you.</p>
-                    </div>
+                <div className="w-full px-4">
+                    <div className="text-center text-blue-500 text-l font-bold font-montserrat">OUR EVENTS</div>
+                    <div className="text-center text-gray-300 text-2xl font-bold font-montserrat mb-4">Our efforts to share our knowledge with you.</div>
                 </div>
 
                 <div className="max-w-screen-xl mx-auto px-4 py-8 text-left">
