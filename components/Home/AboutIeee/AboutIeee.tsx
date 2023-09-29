@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const AboutIeee: React.FC = () => {
     return (
-        <>
+        <div>
             {/* Desktop Layout */}
             <section className="bg-black text-white py-16 hidden sm:block">
                 <div className="w-[1440px] mx-auto px-[84px] flex-col justify-start items-center gap-4">
@@ -98,7 +98,7 @@ const AboutIeee: React.FC = () => {
                     </Link>
                 </div>
             </section>
-        </>
+        </div>
     );
 };
 
