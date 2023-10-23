@@ -1,29 +1,26 @@
 import React from 'react';
+import GalleryImage from "./Image";
 
 const GalleryImages: React.FC = () => {
     return (
-        <div>
-            <section className="bg-black text-white py-16" style={{ width: '1440px' }}>
-
-                <div className="w-[1440px] h-[2666.58px] px-[84px] py-16 justify-between items-start inline-flex">
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                    <img className="w-[400px] h-[499.72px] relative border-8 border-white" src="https://via.placeholder.com/400x500" />
-                </div>
-
-            </section>
+        <div className="max-w-[1440px] mx-auto text-white">
+            <div className="max-w-screen-lg mx-auto p-4 flex flex-wrap justify-center">
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+                <GalleryImage />
+            </div>
         </div>
     );
 };
