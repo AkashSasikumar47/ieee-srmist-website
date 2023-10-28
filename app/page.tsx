@@ -17,7 +17,7 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="bg-black-100">
+    <div className="bg-white">
       <Navbar />
 
       <Hero />
