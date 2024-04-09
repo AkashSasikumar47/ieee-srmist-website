@@ -18,21 +18,10 @@ import '../app/globals.css';
 const HomePage: React.FC = () => {
   return (
     <div className="bg-white">
-      <Navbar />
+
 
       <Hero />
-      <GallerySlide />
-      <AboutIeee />
-      <PopularEvents />
-      <LatestNews />
-      <Announcements />
-      <FeaturedActivities />
-      <RecentBlogs />
-      <FAQ />
-      <Testimonial />
-      <SponsorList />
 
-      <Footer />
     </div>
   );
 };
