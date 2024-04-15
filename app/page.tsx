@@ -1,27 +1,33 @@
+"use client";
+
 import React from 'react';
-import Navbar from '../components/Home/Navbar/Navbar';
-import Footer from '../components/Home/Footer/Footer';
-import Hero from '../components/Home/Hero/Hero';
-import GallerySlide from '../components/Home/GallerySlide/GallerySlide';
-import AboutIeee from '../components/Home/AboutIeee/AboutIeee';
-import PopularEvents from '../components/Home/PopularEvents/PopularEvents';
-import LatestNews from '../components/Home/LatestNews/LatestNews';
-import Announcements from '../components/Home/Announcements/Announcements';
-import FeaturedActivities from '../components/Home/FeaturedActivities/FeaturedActivities';
-import RecentBlogs from '../components/Home/RecentBlogs/RecentBlogs';
-import FAQ from '../components/Home/FAQ/FAQ';
-import Testimonial from '../components/Home/Testimonial/Testimonial';
-import SponsorList from '../components/Home/SponsorList/SponsorList';
+import Head from 'next/head';
+
+import Hero from './components/Hero/Hero';
+import ComingSoon from './components/ComingSoon/ComingSoon';
+import About from './components/About/About';
+import Register from './components/Register/Register';
+import CTA from './components/CTA/CTA';
+import Footer from './components/Footer/Footer';
 
 import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="bg-white">
-
+    <div>
+      <Head>
+        <title>IEEE SRM | Empowering Tomorrow's Innovators</title>
+        <meta name="description" content="Discover the future of technology with IEEE SRM Student Branch. Stay tuned for our exciting new website, packed with resources, events, and opportunities for students passionate about innovation and excellence." />
+        <meta name="keywords" content="IEEE SRMIST, computer science, engineering, innovation, technology" />
+        <link rel="icon" href="/favicon.ico?v=2" />
+      </Head>
 
       <Hero />
-
+      <ComingSoon />
+      <About />
+      <Register />
+      <CTA />
+      <Footer />
     </div>
   );
 };
