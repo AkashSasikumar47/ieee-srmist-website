@@ -8,14 +8,14 @@ const Register = () => {
             title: "PROTOCOL 1.0",
             category: "Hackathon",
             image: "/assets/img/Protocol_Poster.jpg",
-            url: "/protocol",
+            url: "https://protocol.ieeesrmist.com/",
             alt: " PROTOCOL 1.0"
         },
         {
             title: "HackTrix-24",
             category: "Hackathon",
             image: "/assets/img/HackTrix_Poster.jpeg",
-            url: "/hacktrix",
+            url: "https://hacktrix.ieeesrmist.com/",
             alt: "HackTrix-24"
         },
         {

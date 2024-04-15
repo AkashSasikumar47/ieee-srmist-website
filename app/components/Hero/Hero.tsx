@@ -2,8 +2,8 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className="relative">
-            <video autoPlay loop muted className="w-full h-full object-cover">
+        <div className="relative min-h-screen">
+            <video autoPlay loop muted className="w-full h-full min-h-screen object-cover">
                 <source src="/videos/Hero-bg.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
