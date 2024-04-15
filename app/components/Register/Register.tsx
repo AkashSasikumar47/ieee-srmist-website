@@ -7,7 +7,7 @@ const Register = () => {
         {
             title: "PROTOCOL 1.0",
             category: "Hackathon",
-            image: "/assets/img/Protocol_Poster.svg",
+            image: "/assets/img/Protocol_Poster.jpg",
             url: "/protocol",
             alt: " PROTOCOL 1.0"
         },
@@ -29,7 +29,7 @@ const Register = () => {
             title: "Concepto-23",
             category: "Ideathon",
             image: "/assets/img/Concepto_Poster.jpeg",
-            url: "#",
+            url: "https://concepto.ieeesrmist.com",
             alt: "Concepto-23"
         }
     ];
