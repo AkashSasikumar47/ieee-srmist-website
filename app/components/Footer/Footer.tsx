@@ -27,7 +27,7 @@ const Footer = () => {
                             src="/assets/Logo/IEEE SRM SB.png"
                             alt="IEEE SRM SB-Logo"
                             className="w-36 h-16"
-                            whileHover={{ rotate: [0, 360], transition: { duration: 2, loop: Infinity } }}
+                            whileHover={{ rotate: [0, 360], transition: { duration: 1, loop: Infinity } }}
                         />
                     </a>
                 </div>
