@@ -4,7 +4,6 @@ import React from 'react';
 import Head from 'next/head';
 
 import Hero from './components/Hero/Hero';
-import ComingSoon from './components/ComingSoon/ComingSoon';
 import About from './components/About/About';
 import Register from './components/Register/Register';
 import CTA from './components/CTA/CTA';
@@ -23,7 +22,6 @@ const HomePage: React.FC = () => {
       </Head>
 
       <Hero />
-      <ComingSoon />
       <About />
       <Register />
       <CTA />
