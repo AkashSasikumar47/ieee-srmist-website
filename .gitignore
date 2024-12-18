@@ -233,38 +233,45 @@ yarn-error.log*
 # vercel
 .vercel
 
-#firebase
+# firebase
 /app/firebase_config.js
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# IDE/Editor specific files
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Emacs
-*~
-
-# Atom
-.atom/
-
-# Dependency lock files
+# Additional Common Entries
+# Yarn lock files
 yarn.lock
-package-lock.json
 
-# Compiled assets
-*.css
-*.js
+# ESLint
+.eslintcache
 
-# Custom build output directory
-/custom_build/
+# Prettier
+.prettier*
 
-# Sensitive or environment-specific files
-config.development.json
-config.production.json
+# Parcel
+.cache/
+.parcel-cache/
 
-# Backup files
-*~
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ansible
+*.retry
+
+# Caches for commonly used build tools
+.cache/
+
+temp/
+
+# Nuxt.js
+.nuxt/
